@@ -59,6 +59,7 @@ Files and directories to edit with care:
 
 ## Folder Structure
 
+```text
 📦angular-frontend
  ┣ 📂e2e
  ┃ ┗ 📂src
@@ -128,3 +129,4 @@ Files and directories to edit with care:
  ┣ 📜tsconfig.app.json
  ┣ 📜tsconfig.json
  ┗ 📜tsconfig.spec.json
+ ```
