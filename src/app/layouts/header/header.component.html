@@ -1,0 +1,25 @@
+<header class="flex h-16 items-center border-b border-gray-200 bg-white dark:border-night-600 dark:bg-night-700">
+  <div class="flex w-full items-center justify-between">
+    <!-- Logo / Brand -->
+    <div class="flex items-center">
+      <a href="/" class="flex items-center text-xl font-bold text-gray-800 dark:text-night-100">
+        <span>Admin Panel</span>
+      </a>
+    </div>
+
+    <!-- Right side: User menu -->
+    <div class="flex items-center space-x-4">
+
+      <!-- User  -->
+      <div class="relative dropdown">
+        <div
+          class="flex items-center space-x-2 rounded-md px-3 py-2 text-sm font-medium text-gray-700 dark:text-night-300">
+          <div class="h-8 w-8 rounded-full bg-primary-500 flex items-center justify-center text-white font-semibold">
+            {{ userInitials }}
+          </div>
+          <span class="hidden sm:block">{{ userName }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
