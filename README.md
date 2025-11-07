@@ -58,6 +58,7 @@ Files and directories to edit with care:
 - `assets/` — static assets used throughout the app.
 
 ## Folder Structure
+
 📦angular-frontend
  ┣ 📂e2e
  ┃ ┗ 📂src
